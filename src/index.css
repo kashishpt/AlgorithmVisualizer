@@ -1,0 +1,83 @@
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.vertex {
+  width: 25px;
+  height: 25px;
+  font-size: 0px;
+  border: white solid 1px;
+  transition: all 0.3s ease;
+  background-color: lightgrey;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+#container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin: 0% 10%;
+  padding: 4px;
+  background-color: white;
+}
+
+.control-button {
+  width: 10%;
+  font-size: 15px;
+  margin: 10px;
+  border: 0px;
+  color: white;
+  padding: 3px;
+  background-color: #35363A;
+  border: #292A2D solid 2px;
+  transition: all 0.2s ease;
+}
+
+.control-button:hover {
+  border-radius: 10px;
+  border: lightgray solid 1px;
+}
+
+#control-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: #292A2D solid 3px;
+  padding: 1px;
+  margin: 10px;
+  background-color: #7D7E80;
+}
+
+.number-picker {
+  display: flex;
+  flex-direction: column;
+}
+
+#picker-button:hover {
+  background-color: #eec249;
+}
+
+#start-button:hover {
+  background-color: #59df76d8;
+}
+
+#reset-button:hover {
+  background-color: #b51d50;
+}
+
+#block-path-button:hover {
+  background-color: black;
+}
+
